@@ -8,11 +8,6 @@
     src: url(Fonts/Open_Sans/static/OpenSans-Medium.ttf);
 }
 
-html {
-    min-width: 430px;
-    scroll-behavior: smooth;
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -30,18 +25,20 @@ a {
     color: black;
 }
 
+
 #body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-/*Inicio header*/
+/*Inicio navbar*/
 
 .nav-item a{
     font-size: 1.3em;
     color: black;
     font-family: 'Oswald';
+    
 }
 
 .nav-item a:hover {
@@ -63,7 +60,6 @@ a {
     display: flex;
     width: 100%;
     height: 100vh;
-    
 }
 
 /*Inicio Section para botones*/
@@ -72,7 +68,7 @@ a {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     width: 100%;
     height: 100%;
@@ -105,6 +101,7 @@ a {
 }
 
 .btn_text{
+    padding-top: 12px;
     color: white;
     font-family: 'Open Sans';
 }
@@ -134,6 +131,7 @@ a {
     max-width: 50%;
     text-align: center;
     color: black;
+    font-size: clamp(1rem, 2.5vw, 1.5rem); ;
 }
 
 .service {
@@ -175,6 +173,7 @@ a {
 .service-info , h2 , p {
     font-family: 'Open Sans';
     margin-left: 20px;
+    font-size: clamp(1rem, 2.5vw, 1.5rem); ;
 }
 
 .service-info h2 {
@@ -305,8 +304,32 @@ a {
 /*Inicio de styles para digital*/
 
 .products-digital {
-    margin-top: 500px;
-    
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo-trabajos{
+    text-align: center;
+    font-family: 'Oswald';
+    margin-bottom: 5%;
+}
+
+.trabajos {
+    gap: 100px;
+}
+
+.card {
+    border: grey 0.5px solid;
+    border-radius: 5%;
+}
+
+.card-body {
+    padding-top: 0;
+}
+
+.card-body h5{
+    margin-bottom: 50px;
 }
 
 
