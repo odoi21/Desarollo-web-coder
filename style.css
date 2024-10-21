@@ -8,11 +8,6 @@
     src: url(Fonts/Open_Sans/static/OpenSans-Medium.ttf);
 }
 
-html {
-    min-width: 430px;
-    scroll-behavior: smooth;
-}
-
 * {
     margin: 0px;
     padding: 0px;
