@@ -38,7 +38,6 @@ a {
     font-size: 1.3em;
     color: black;
     font-family: 'Oswald';
-    
 }
 
 .nav-item a:hover {
@@ -140,6 +139,7 @@ a {
 .service {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     padding-top: 50px;
     width: 100%;
     justify-content: center;
