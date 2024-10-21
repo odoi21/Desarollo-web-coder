@@ -106,6 +106,7 @@ a {
 }
 
 .btn_text{
+    padding-top: 12px;
     color: white;
     font-family: 'Open Sans';
 }
