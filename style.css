@@ -107,6 +107,7 @@ a {
 }
 
 .h2_spacing {
+    font-size: clamp(0.8rem, -1.5rem + 8vw, 2rem);
     letter-spacing: 2px;
 }
 
@@ -123,15 +124,17 @@ a {
     display: inline-block;
     margin-top: 20px;
     color: black;
+    font-size: clamp(1rem, -1.5rem + 8vw, 2rem);
 }
 
 .main_info p {
     margin-top: 30px;
     margin-left: 25%;
+    margin-bottom: 80px;
     max-width: 50%;
     text-align: center;
     color: black;
-    font-size: clamp(1rem, 2.5vw, 1.5rem); ;
+    font-size: clamp(0.8rem, -1.5rem + 8vw, 1.5rem);
 }
 
 .service {
@@ -173,7 +176,7 @@ a {
 .service-info , h2 , p {
     font-family: 'Open Sans';
     margin-left: 20px;
-    font-size: clamp(1rem, 2.5vw, 1.5rem); ;
+    font-size: clamp(0.8rem, -1.5rem + 8vw, 1.5rem);
 }
 
 .service-info h2 {
@@ -298,6 +301,8 @@ a {
 }
 
 /*inicio media querries para inicio*/
+
+
 
 
 
