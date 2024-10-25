@@ -65,37 +65,30 @@ a {
   width: 100%;
   height: 100%;
 }
-
-.box {
+.container_main .box {
   width: 30%;
   height: 60px;
   text-align: center;
   margin-top: 20px;
 }
-
-.maquinaria {
+.container_main .maquinaria {
   background-color: #48c9b0;
 }
-
-.impresiones {
+.container_main .impresiones {
   background-color: #3498db;
 }
-
-.envios {
+.container_main .envios {
   background-color: #fcb037;
 }
-
-.contacto {
+.container_main .contacto {
   background-color: #e74c3c;
 }
-
-.btn_text {
+.container_main .btn_text {
   padding-top: 12px;
   color: white;
   font-family: "Open Sans";
 }
-
-.h2_spacing {
+.container_main .h2_spacing {
   font-size: clamp(0.8rem, -1.5rem + 8vw, 2rem);
 }
 
@@ -132,42 +125,34 @@ a {
   width: 100%;
   justify-content: center;
 }
-
-.service img {
+.service .service img {
   filter: brightness(0.8);
 }
-
-.service-icon {
+.service .service-icon {
   margin-right: 5px;
   align-self: center;
 }
-
-.service-icon img {
+.service .service-icon img {
   width: 50px;
   align-self: center;
 }
-
-.service-ul {
+.service .service-ul {
   align-self: center;
 }
-
-.service-li {
+.service .service-li {
   display: flex;
   padding-bottom: 50px;
 }
-
-.service-info {
+.service .service-info {
   margin-left: 20px;
   border-left: rgb(0, 0, 0) 2px solid;
 }
-
-.service-info, h2, p {
+.service .service-info, .service h2, .service p {
   font-family: "Open Sans";
   margin-left: 20px;
   font-size: clamp(0.8rem, -1.5rem + 8vw, 1.5rem);
 }
-
-.service-info h2 {
+.service .service-info h2 {
   color: #209be2;
 }
 
@@ -211,6 +196,11 @@ a {
   color: #209be2;
 }
 
+.ul-footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .li-footer {
   font-family: "Open Sans";
   margin-top: 10px;
@@ -240,6 +230,7 @@ a {
 
 /*estilos  footer productos columna 3 fila 1 */
 .footer-nav-col-2 {
+  padding: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
