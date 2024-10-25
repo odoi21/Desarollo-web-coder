@@ -67,10 +67,10 @@ a {
 }
 
 .box {
-  display: block;
   width: 30%;
   height: 60px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .maquinaria {
@@ -79,17 +79,14 @@ a {
 
 .impresiones {
   background-color: #3498db;
-  margin-top: 20px;
 }
 
 .envios {
   background-color: #fcb037;
-  margin-top: 20px;
 }
 
 .contacto {
   background-color: #e74c3c;
-  margin-top: 20px;
 }
 
 .btn_text {
@@ -100,7 +97,6 @@ a {
 
 .h2_spacing {
   font-size: clamp(0.8rem, -1.5rem + 8vw, 2rem);
-  letter-spacing: 2px;
 }
 
 /*Inicio de informasion SERVICIOS, QUINES SOMOS, ETC*/
