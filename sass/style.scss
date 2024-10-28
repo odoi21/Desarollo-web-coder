@@ -227,6 +227,7 @@ a {
 }
 
 /*Incio estilos para cada fila/col de la grilla  estos son estilos que van a aplicar para todo el footer*/
+
 .h2-footer {
     font-family: 'Oswald';
     color: #209be2;
@@ -318,32 +319,31 @@ a {
     margin-top: 100px;
     width: 100%;
     text-align: center;
-}
 
-.titulo-trabajos-digtal-offset{
-    text-align: center;
-    font-family: 'Oswald';
-    margin-bottom: 5%;
+    .titulo-trabajos-digtal-offset{
+        text-align: center;
+        font-family: 'Oswald';
+        margin-bottom: 5%;
+    }
+    
+    .trabajos {
+        margin-top: 50px;
+        gap: 100px;
+    }
+    
+    .card {
+        border: grey 0.5px solid;
+        border-radius: 5%;
+    }
+    
+    .card-body {
+        padding-top: 0;
+    }
+    
+    .card-body h5{
+        margin-bottom: 50px;
+    }
 }
-
-.trabajos {
-    margin-top: 50px;
-    gap: 100px;
-}
-
-.card {
-    border: grey 0.5px solid;
-    border-radius: 5%;
-}
-
-.card-body {
-    padding-top: 0;
-}
-
-.card-body h5{
-    margin-bottom: 50px;
-}
-
 
 
 /*Inicio de styles para envios*/
@@ -352,21 +352,19 @@ a {
     margin-top: 100px;
     width: 100%;
     text-align: center;
+
+    .titulo-main-envios{
+        font-family: 'Oswald';
+    }
+    
+    .info-envios {
+        margin: auto;    /* Centra horizontalmente el contenedor */  
+        text-align: justify;
+        max-width: 60%;
+        display: block;
+        font-size: clamp(2rem,3rem,2rem);
+    }
 }
-
-.titulo-main-envios{
-    font-family: 'Oswald';
-}
-
-.info-envios {
-    margin: auto;    /* Centra horizontalmente el contenedor */  
-    text-align: justify;
-    max-width: 60%;
-    display: block;
-    font-size: clamp(2rem,3rem,2rem);
-}
-
-
 
 
 /*Inicio de styles para presupuestos*/

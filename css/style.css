@@ -271,28 +271,23 @@ a {
   width: 100%;
   text-align: center;
 }
-
-.titulo-trabajos-digtal-offset {
+.products-digital-offset .titulo-trabajos-digtal-offset {
   text-align: center;
   font-family: "Oswald";
   margin-bottom: 5%;
 }
-
-.trabajos {
+.products-digital-offset .trabajos {
   margin-top: 50px;
   gap: 100px;
 }
-
-.card {
+.products-digital-offset .card {
   border: grey 0.5px solid;
   border-radius: 5%;
 }
-
-.card-body {
+.products-digital-offset .card-body {
   padding-top: 0;
 }
-
-.card-body h5 {
+.products-digital-offset .card-body h5 {
   margin-bottom: 50px;
 }
 
@@ -302,12 +297,10 @@ a {
   width: 100%;
   text-align: center;
 }
-
-.titulo-main-envios {
+.main-envios .titulo-main-envios {
   font-family: "Oswald";
 }
-
-.info-envios {
+.main-envios .info-envios {
   margin: auto; /* Centra horizontalmente el contenedor */
   text-align: justify;
   max-width: 60%;
