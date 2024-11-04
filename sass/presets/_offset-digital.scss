@@ -1,0 +1,31 @@
+/*Inicio de styles para digital y offset */
+
+.products-digital-offset {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+
+    .titulo-trabajos-digtal-offset{
+        text-align: center;
+        font-family: 'Oswald';
+        margin-bottom: 5%;
+    }
+    
+    .trabajos {
+        margin-top: 50px;
+        gap: 100px;
+    }
+    
+    .card {
+        border: grey 0.5px solid;
+        border-radius: 5%;
+    }
+    
+    .card-body {
+        padding-top: 0;
+    }
+    
+    .card-body h5{
+        margin-bottom: 50px;
+    }
+}

@@ -1,3 +1,220 @@
+.nav-item a {
+  font-size: 1.3em;
+  color: black;
+  font-family: "Oswald";
+}
+
+.nav-item a:hover {
+  color: #209be2;
+}
+
+.nav_banner img {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+/*Inicio footer estructura principal grillas */
+#footer {
+  background-color: rgb(233, 233, 233);
+}
+
+.section-grid {
+  display: grid;
+  grid-template-rows: 8fr 2fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "logo        nav       productos   contacto" ".            .           .          .    " "copyright  copyright  copyright   copyright";
+  width: 100%;
+}
+
+/* Inicio de grid area para cada columna/fila*/
+.footer-logo-col {
+  grid-area: logo;
+}
+
+.footer-nav-col-1 {
+  grid-area: nav;
+}
+
+.footer-nav-col-2 {
+  grid-area: productos;
+}
+
+.footer-nav-col-3 {
+  grid-area: contacto;
+}
+
+.footer-copyright-fila-3 {
+  grid-area: copyright;
+}
+
+/*Incio estilos para cada fila/col de la grilla  estos son estilos que van a aplicar para todo el footer*/
+.h2-footer {
+  font-family: "Oswald";
+  color: #209be2;
+}
+
+.ul-footer {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.li-footer {
+  font-family: "Open Sans";
+  margin-top: 10px;
+}
+
+.li-footer a:hover {
+  color: #209be2;
+}
+
+/*estilos para logo columna 1 y fila 1 */
+.logo-footer {
+  width: 150px;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*estilos  footer nav columna 2 fila 1 */
+.footer-nav-col-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*estilos  footer productos columna 3 fila 1 */
+.footer-nav-col-2 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*estilos  footer contacto columna 4 fila 1 */
+.footer-nav-col-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.li-footer img {
+  width: 5%;
+}
+
+/*estilos  footer copyright columna 1,2,3,4 fila 3 */
+.footer-copyright-fila-3 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(233, 233, 233);
+  border-top: white 5px solid;
+  justify-content: center;
+}
+
+.footer-copyright-fila-3 p {
+  font-family: "Open Sans";
+}
+
+/*Inicio de styles para envios*/
+.main-envios {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+.main-envios .titulo-main-envios {
+  font-family: "Oswald";
+}
+.main-envios .info-envios {
+  margin: auto; /* Centra horizontalmente el contenedor */
+  text-align: justify;
+  max-width: 60%;
+  display: block;
+  font-size: 2rem;
+}
+
+/*Inicio de styles para digital y offset */
+.products-digital-offset {
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+}
+.products-digital-offset .titulo-trabajos-digtal-offset {
+  text-align: center;
+  font-family: "Oswald";
+  margin-bottom: 5%;
+}
+.products-digital-offset .trabajos {
+  margin-top: 50px;
+  gap: 100px;
+}
+.products-digital-offset .card {
+  border: grey 0.5px solid;
+  border-radius: 5%;
+}
+.products-digital-offset .card-body {
+  padding-top: 0;
+}
+.products-digital-offset .card-body h5 {
+  margin-bottom: 50px;
+}
+
+/*Inicio de styles para presupuestos*/
+.main-presupuestos {
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #209be2;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #036eac;
+}
+
 @font-face {
   font-family: "Oswald";
   src: url(../Fonts/Oswald/Oswald-VariableFont_wght.ttf);
@@ -40,19 +257,19 @@ a {
   color: #209be2;
 }
 
+/*BANNER DE INICIO DE PAGINA */
+.nav_banner img {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
 /*Inicio main*/
 #main {
   min-height: 100vh;
   font-family: "Open Sans";
   flex: 1;
   margin-bottom: 20px;
-}
-
-/*BANNER DE INICIO DE PAGINA */
-.nav_banner img {
-  display: flex;
-  width: 100%;
-  height: 100vh;
 }
 
 /*Inicio Section para botones*/

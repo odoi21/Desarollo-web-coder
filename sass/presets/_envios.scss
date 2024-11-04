@@ -1,0 +1,19 @@
+/*Inicio de styles para envios*/
+
+.main-envios {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+
+    .titulo-main-envios{
+        font-family: 'Oswald';
+    }
+    
+    .info-envios {
+        margin: auto;    /* Centra horizontalmente el contenedor */  
+        text-align: justify;
+        max-width: 60%;
+        display: block;
+        font-size: clamp(2rem,3rem,2rem);
+    }
+}
