@@ -129,14 +129,26 @@
   text-align: center;
 }
 .main-envios .titulo-main-envios {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 60px;
   font-family: "Oswald";
+}
+.main-envios .titulo-main-envios > img {
+  width: 6%;
+  padding-left: 30px;
 }
 .main-envios .info-envios {
   margin: auto; /* Centra horizontalmente el contenedor */
   text-align: justify;
-  max-width: 60%;
+  max-width: 80%;
   display: block;
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 2rem, 1em);
+  font-family: "Open Sans";
+}
+.main-envios p::first-line {
+  color: #209be2;
 }
 
 /*Inicio de styles para digital y offset */
@@ -482,97 +494,5 @@ a {
 }
 
 /*inicio media querries para inicio*/
-/*Inicio de styles para digital y offset */
-.products-digital-offset {
-  margin-top: 100px;
-  width: 100%;
-  text-align: center;
-}
-.products-digital-offset .titulo-trabajos-digtal-offset {
-  text-align: center;
-  font-family: "Oswald";
-  margin-bottom: 5%;
-}
-.products-digital-offset .trabajos {
-  margin-top: 50px;
-  gap: 100px;
-}
-.products-digital-offset .card {
-  border: grey 0.5px solid;
-  border-radius: 5%;
-}
-.products-digital-offset .card-body {
-  padding-top: 0;
-}
-.products-digital-offset .card-body h5 {
-  margin-bottom: 50px;
-}
-
-/*Inicio de styles para envios*/
-.main-envios {
-  margin-top: 100px;
-  width: 100%;
-  text-align: center;
-}
-.main-envios .titulo-main-envios {
-  font-family: "Oswald";
-}
-.main-envios .info-envios {
-  margin: auto; /* Centra horizontalmente el contenedor */
-  text-align: justify;
-  max-width: 60%;
-  display: block;
-  font-size: 2rem;
-}
-
-/*Inicio de styles para presupuestos*/
-.main-presupuestos {
-  width: 100%;
-  margin-top: 100px;
-  text-align: center;
-}
-
-.form-container {
-  max-width: 400px;
-  margin: 50px auto;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #333;
-}
-
-input {
-  margin-bottom: 15px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-button {
-  padding: 10px;
-  border: none;
-  border-radius: 4px;
-  background-color: #209be2;
-  color: white;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #036eac;
-}
 
 /*# sourceMappingURL=style.css.map */
