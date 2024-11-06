@@ -162,6 +162,10 @@
   font-family: "Oswald";
   margin-bottom: 5%;
 }
+.products-digital-offset .service {
+  width: 100%;
+  height: 270px;
+}
 .products-digital-offset .trabajos {
   margin-top: 50px;
   gap: 100px;
