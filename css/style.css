@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .nav-item a {
   font-size: 1.3em;
   color: black;
@@ -136,7 +137,7 @@
   font-family: "Oswald";
 }
 .main-envios .titulo-main-envios > img {
-  width: 6%;
+  width: 5%;
   padding-left: 30px;
 }
 .main-envios .info-envios {
@@ -180,12 +181,22 @@
 .products-digital-offset .card-body h5 {
   margin-bottom: 50px;
 }
+.products-digital-offset .btn {
+  transition: transform 0.3s ease; /* Transición suave */
+}
+.products-digital-offset .btn:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
+}
 
 /*Inicio de styles para presupuestos*/
 .main-presupuestos {
   width: 100%;
   margin-top: 100px;
   text-align: center;
+}
+
+.title-main-presupuestos {
+  font-family: "Oswald";
 }
 
 .form-container {
@@ -216,19 +227,19 @@ input {
   font-size: 16px;
 }
 
-button {
-  padding: 10px;
+.btn-form {
+  padding: 8px;
   border: none;
   border-radius: 4px;
   background-color: #209be2;
   color: white;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease; /* Transición suave */
 }
 
-button:hover {
-  background-color: #036eac;
+.btn-form:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
 }
 
 @font-face {
@@ -303,6 +314,11 @@ a {
   height: 60px;
   text-align: center;
   margin-top: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Transición suave */
+}
+.container_main .box:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al 110% */
 }
 .container_main .maquinaria {
   background-color: #48c9b0;
@@ -387,114 +403,6 @@ a {
 }
 .service .service-info h2 {
   color: #209be2;
-}
-
-/*Inicio footer estructura principal grillas */
-#footer {
-  background-color: rgb(233, 233, 233);
-}
-
-.section-grid {
-  display: grid;
-  grid-template-rows: 8fr 2fr;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-areas: "logo        nav       productos   contacto" ".            .           .          .    " "copyright  copyright  copyright   copyright";
-  width: 100%;
-}
-
-/* Inicio de grid area para cada columna/fila*/
-.footer-logo-col {
-  grid-area: logo;
-}
-
-.footer-nav-col-1 {
-  grid-area: nav;
-}
-
-.footer-nav-col-2 {
-  grid-area: productos;
-}
-
-.footer-nav-col-3 {
-  grid-area: contacto;
-}
-
-.footer-copyright-fila-3 {
-  grid-area: copyright;
-}
-
-/*Incio estilos para cada fila/col de la grilla  estos son estilos que van a aplicar para todo el footer*/
-.h2-footer {
-  font-family: "Oswald";
-  color: #209be2;
-}
-
-.ul-footer {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.li-footer {
-  font-family: "Open Sans";
-  margin-top: 10px;
-}
-
-.li-footer a:hover {
-  color: #209be2;
-}
-
-/*estilos para logo columna 1 y fila 1 */
-.logo-footer {
-  width: 150px;
-  margin-left: 110px;
-  margin-right: 110px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-/*estilos  footer nav columna 2 fila 1 */
-.footer-nav-col-1 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-top: 20px;
-}
-
-/*estilos  footer productos columna 3 fila 1 */
-.footer-nav-col-2 {
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-top: 20px;
-}
-
-/*estilos  footer contacto columna 4 fila 1 */
-.footer-nav-col-3 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.li-footer img {
-  width: 5%;
-}
-
-/*estilos  footer copyright columna 1,2,3,4 fila 3 */
-.footer-copyright-fila-3 {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: rgb(233, 233, 233);
-  border-top: white 5px solid;
-  justify-content: center;
-}
-
-.footer-copyright-fila-3 p {
-  font-family: "Open Sans";
 }
 
 /*inicio media querries para inicio*/

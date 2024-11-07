@@ -33,4 +33,12 @@
     .card-body h5{
         margin-bottom: 50px;
     }
+
+    .btn {
+        transition: transform 0.3s ease; /* Transición suave */
+    }
+
+    .btn:hover {
+        transform: scale(1.1); /* Aumenta el tamaño al 110% */
+    }
 }
