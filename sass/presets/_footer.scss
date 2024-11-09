@@ -128,21 +128,15 @@
         grid-template-rows: 1fr 1r;
         grid-template-areas: 
                 /*Col1*/    
-        /*fila1*/"logo"
-        /*fila2*/"nav"
-        /*fila3*/"productos"
-        /*fila4*/"contacto"
-        /*fila5*/"copyright"
+        /*fila1*/"nav"
+        /*fila2*/"productos"
+        /*fila3*/"contacto"
+        /*fila4*/"copyright"
         ;
         
     }
     
-    /* Inicio de grid area para cada columna/fila*/
-    
-    .footer-logo-col{
-        grid-area: logo;
-    }
-    
+    /* Inicio de grid area para cada columna/fila*/    
     .footer-nav-col-1{
         grid-area: nav;
     
