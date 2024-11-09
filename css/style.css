@@ -123,6 +123,29 @@
   font-family: "Open Sans";
 }
 
+@media screen and (max-width: 780px) {
+  .section-grid {
+    display: grid;
+    grid-template-rows: 1fr 1r;
+    grid-template-areas: "logo" "nav" "productos" "contacto" "copyright";
+  }
+  /* Inicio de grid area para cada columna/fila*/
+  .footer-logo-col {
+    grid-area: logo;
+  }
+  .footer-nav-col-1 {
+    grid-area: nav;
+  }
+  .footer-nav-col-2 {
+    grid-area: productos;
+  }
+  .footer-nav-col-3 {
+    grid-area: contacto;
+  }
+  .footer-copyright-fila-3 {
+    grid-area: copyright;
+  }
+}
 /*Inicio de styles para envios*/
 .main-envios {
   margin-top: 100px;
