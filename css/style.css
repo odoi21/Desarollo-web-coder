@@ -129,6 +129,9 @@
     grid-template-rows: 1fr 1r;
     grid-template-areas: "nav" "productos" "contacto" "copyright";
   }
+  .logo-footer {
+    display: none;
+  }
   /* Inicio de grid area para cada columna/fila*/
   .footer-nav-col-1 {
     grid-area: nav;
