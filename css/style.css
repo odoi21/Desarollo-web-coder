@@ -187,6 +187,13 @@
   font-family: "Oswald";
   margin-bottom: 5%;
 }
+.products-digital-offset .description-offset {
+  display: flex;
+  font-family: "Open Sans";
+  font-size: clamp(1rem, -1.5rem + 8vw, 1rem);
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .products-digital-offset .service {
   width: 100%;
   height: 270px;
