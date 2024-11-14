@@ -96,6 +96,7 @@
   flex-wrap: wrap;
   text-align: center;
   margin-top: 20px;
+  align-items: center;
 }
 
 /*estilos  footer contacto columna 4 fila 1 */
@@ -127,7 +128,11 @@
 @media screen and (max-width: 780px) {
   .section-grid {
     display: grid;
-    grid-template-rows: 1fr 1r;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    gap: 2px;
+    width: 100%;
+    height: 100%;
     grid-template-areas: "nav" "productos" "contacto" "copyright";
   }
   .logo-footer {
@@ -145,6 +150,9 @@
   }
   .footer-copyright-fila-3 {
     grid-area: copyright;
+  }
+  .footer-nav-col-2 {
+    align-items: center;
   }
 }
 /*Inicio de styles para envios*/
